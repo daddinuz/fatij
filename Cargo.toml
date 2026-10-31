@@ -1,0 +1,19 @@
+[package]
+name = "fatij"
+version = "0.1.0"
+authors = ["Davide Di Carlo <daddinuz@gmail.com>"]
+description = "Dependency-free, resizable thread pools and task processing for nightly Rust"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/daddinuz/fatij"
+keywords = ["thread-pool", "threads", "concurrency", "jobs"]
+categories = ["concurrency"]
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
+
+[lints.rustdoc]
+broken_intra_doc_links = "deny"
